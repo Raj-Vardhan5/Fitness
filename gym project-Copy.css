@@ -1,0 +1,309 @@
+* {
+    font-family: "Montserrat";
+    margin: 0;
+  
+    
+  }
+  
+  
+  p {
+    color: white;
+    font-size: x-large;
+  }
+  
+  .section1 {
+    background-image: url("main.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+  }
+  
+  .left {
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    margin: 10px;
+    margin-top: 0;
+  }
+  
+  .left p {
+    color: white;
+    font-size: 20px;
+  }
+  
+  .left img {
+    width: 175px;
+    filter: invert(100%);
+  }
+  
+  
+  .home {
+    margin: 80px 90px 0 90px;
+    padding: 10px 50px 0 30px;
+    color: white;
+  }
+  
+  
+  .cls-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: large;
+  }
+  
+  .cls-button:hover{
+    background-color: #747478;
+    color: #19191a;
+  
+  }
+  
+  .about-mee-header {
+    max-width: 640px;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-bottom: 0 solid white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 38px;
+    word-spacing: 4px;
+    letter-spacing: 3px;
+    box-shadow: 0 5px 20px #000000;
+    background-color: #111112;
+    color: #f0f1f1;
+    text-align: center;
+  }
+  
+  .section2 {
+    background-color: #333;
+  }
+  
+  .class-button {
+    color: rgb(247, 238, 220);
+    font-size: 20px;
+    text-decoration: none;
+  }
+   
+  
+  
+  .class-button:hover{
+    color: wheat;
+  }
+  
+  .class-img {
+    height: 70%;
+    width: 50%;
+    border-radius: 10%;
+    margin: 10px;
+  }
+  
+  .carousel-item {
+    padding: 7% 15%;
+  
+  }
+  
+  .section3 {
+    text-align: center;
+    padding: 100px;
+    background-color: #333;
+  }
+  
+  .pricing-col {
+    padding: 3% 2%;
+  }
+  
+  .xyz {
+    width: 100%;
+  }
+  
+  .diet-chart {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    background-color: rgb(4, 4, 4);
+    box-shadow: #515151 10px 10px 10px 10px;
+    color: wheat;
+    text-shadow: rgb(23, 23, 23) 3px 3px 3px;
+    font-size: 30px;
+    text-align: left;
+    border-radius: 3%;
+  }
+  
+  .chart {
+    text-align: center;
+    color: rgb(8, 149, 18);
+    text-decoration: underline;
+    font-size: 50px;
+  }
+  
+  .diet-link {
+    text-align: center;
+    font-size: 35px;
+  }
+  
+  .footer-link {
+    display: inline-block;
+    margin: 0 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+  }
+  
+  
+  
+  .copy {
+    color: #EAF6F6;
+    font-size: 20px;
+    
+    text-align: center;
+  }
+  
+  .contact-me {
+    margin: 100px 0;
+    line-height: 2;
+    margin-bottom: 50px;
+  }
+  
+  .info {
+    border: none;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+  }
+  
+  
+  
+  
+  .about-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+  }
+  
+  .about {
+    margin: 100px 0;
+  }
+  
+  .web {
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin-right: 30px;
+  }
+  
+  .web1 {
+    height: 30px;
+    width: 32px;
+    float: left;
+    margin-right: 20px;
+  }
+  
+  .tab{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .cont:hover{
+    transform: scale(1.04);
+    box-shadow: 0 0 20px #000;
+    
+  }
+  table{
+    transition: all 5s, transform .4s, box-shadow .4s;
+  }
+  .card{
+    transition: all 5s, transform .4s, box-shadow .4s;
+  }
+  .Emailpic  {
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid darkcyan;
+    
+  }
+  .Facebookpic{
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid blue;
+ 
+  }
+  .instapic{
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid rgb(242, 76, 242);
+    
+  }
+  .Emailpic:hover{
+    color: #EAF6F6;
+    box-shadow:  0px 0px 4px #89e3e3 inset,
+    0px 0px 4px  #89e3e3;
+    border-radius: 50%;
+    filter: grayscale(1.0);
+  }
+  .Facebookpic:hover{
+    color: #EAF6F6;
+    box-shadow:  0px 0px 10px rgb(9, 9, 80) inset,
+    0px 0px 10px rgb(5, 5, 69);
+    border-radius: 50%;
+    filter: grayscale(1.0);
+  }
+  .instapic:hover{
+    color: #EAF6F6;
+    box-shadow:  0px 0px 13px purple inset,
+    0px 0px 13px purple;
+    border-radius: 50%;
+    filter: grayscale(1.0);
+  }
+  .membershipgym{
+    margin: 0%;
+    
+  }
+  #MEMBTN{
+    background-color: yellow;
+    
+    font-weight: bold;
+  }
+  #MEMBTN:hover{
+      background-color: rgb(230, 230, 89);
+  
+  
+  }
+  .memberbtn{
+    text-decoration: none;
+    color: rgb(6, 6, 122);
+    
+  }
+
+ 
+    
+ 
+  #mbr-contain{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #yellow{
+    color: rgb(242, 24, 24);
+  }
+ /* #footer-heading{
+    text-decoration: underline solid  rgb(242, 24, 24);
+ } */
+ #footer-link{
+    text-decoration: none;
+
+ }
+ #footer-link:hover{
+  font-style: italic;
+ }
+ .logo-footer{
+  padding-left: 1%;
+ }
+
+ .logo-footer-2{
+  padding-left: 4%;
+ }
